@@ -1,0 +1,31 @@
+.grid {
+    width: 200px;   
+    height: 200px; 
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: black;
+  
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #ea00ff, #00FF6C);
+  }
+  
+  
+  .grid div {
+    width: 20px; 
+    height: 20px;
+    
+  }
+  
+  .snake {
+    background-color: rgb(255, 0, 128);
+  }
+  
+  .apple {
+    border-radius: 50%;
+    background-color: rgb(46, 0, 253);
+  }
